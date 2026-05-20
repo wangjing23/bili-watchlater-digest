@@ -1,0 +1,3 @@
+display_name: Bili Watchlater Digest
+short_description: Make Bilibili watchlater digests.
+default_prompt: Create a Bilibili watchlater digest for today.
