@@ -1,0 +1,50 @@
+# Bilibili digest run artifacts
+bili-watchlater-runs/
+bilibili-downloads-test/
+
+# Downloaded media and generated subtitle/note outputs
+*.mp4
+*.mkv
+*.webm
+*.flv
+*.srt
+*.vtt
+*.ass
+*.ssa
+*.tsv
+*.wav
+*.mp3
+screenshots/
+
+# Local command scratch files accidentally created by shell quoting
+[()][{]id
+t.slice*
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node/package caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
